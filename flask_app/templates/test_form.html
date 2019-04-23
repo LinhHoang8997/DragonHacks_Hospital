@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./static/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:500" rel="stylesheet">
+    <title>Hospital Health Application</title>
+</head>
+
+</html>
+
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+              <!-- <a class="navbar-brand" href="#"><img src="./static/Logo.PNG"></a> -->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#MyNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Doctors</a></li>
+                    <li><a href="#">Patients</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row dis">
+            <div class="col-md-5 shadow">
+                <h1 class="text-left">Hospital Health</h1>
+                <h2 class="text-left">Our Mission</h2>
+                <p class="text-left"><em>Identifies healthcare risks for your institution.</em></p>
+                <p class="text-left">Hospital Health uses ML to predict the risk of payout, complications, and mortality based on a hospital or clinic's attributes.</p>
+                <br>
+
+                <h2 class="text-left">For Providers</h2>
+                <p class="text-left">Information can help providers make decisions as to their level of care
+                    when compared to others in the area and what that is valued at. Take a detailed
+                    look at what your risks are compared to other providers in your field.
+                </p>
+            </div>
+            <div class="col-md-7">
+                <!--make 2 columns of 6-->
+                <div class="row">
+                    <div class="col-md-10">
+                        <h3 class="text-left">Registration Form</h3>
+                    </div>
+                    <div class="col-md-2">
+                        <span class="glyphicon glyphicon-pencil"></span>
+                    </div>
+                </div>
+                <hr>
+                <!--close-->
+                <!--make another column for textbox and label-->
+                <form method="post" action="{{ url_for('result_form') }}">
+                  <div class="row">
+                      <label class="label col-md-3 control-label">City</label>
+                      <div class="col-md-9">
+                          <input type="City" class="form-control" name="city" placeholder="City">
+                      </div>
+                  </div>
+                  <div class="row">
+                      <label class="label col-md-3 control-label">State</label>
+                      <div class="col-md-9">
+                          <input type="State" class="form-control" name="state" placeholder="State">
+                      </div>
+                  </div>
+                  <div class="row">
+                      <label class="label col-md-3 control-label">Zip Code</label>
+                      <div class="col-md-9">
+                          <input type="ZipCode" class="form-control" name="zipcode" placeholder="Zip Code">
+                      </div>
+                  </div>
+                  <div class="row">
+                          <label class="label col-md-3 control-label">Ownership</label>
+                          <div class="col-md-9">
+                              <input type="HospitalOwnership" class="form-control" name="hospitalOwnership" placeholder="Hospital Ownership">
+                          </div>
+                      </div>
+                  <br/>
+                  <div class="row" id='special'>
+                          <label class="label col-md-3 control-label">   </label>
+                          <div class="col-md-9">
+                            <input class="btn btn-primary btn-block col-md-6 mt-5" type="submit" value="Next Steps">
+                          </div>
+                  </div>
+                  <br/>
+                </form>
+                <!--close-->
+            </div>
+        </div>
+    </div>
+</body>

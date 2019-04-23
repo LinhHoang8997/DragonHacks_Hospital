@@ -1,0 +1,120 @@
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: black;
+    color: #FFF;
+    padding: 1% 0;
+    font-size: 1.2em;
+    border: 0;
+}
+
+.nav {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.navbar-brand {
+    float: left;
+    min-height: 75px;
+    padding: 0 15px 5px;
+}
+
+.navbar-inverse .navbar-nav .activex a,
+.navbar-inverse .navbar-nav .active a:focus,
+.navbar-inverse .navbar-nav .active a:hover {
+    color: white;
+    background-color: #2c2e74;
+}
+
+.navbar-inverse .navbar-nav li a {
+            color: #D5D5D5;
+        }
+/* *{
+    margin: 0px;
+    padding: 0px;\
+} */
+
+body{
+    background-image: url(patient_portal_2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+h1{
+    font-size: 40px;
+    color: white;
+    margin-top: 50px;
+    font-family: 'Work Sans', sans-serif;
+}
+p{
+    font-size: 17px;
+    color: white;
+}
+
+h2 {
+     font-family: 'Work Sans', sans-serif;   
+}
+
+h3{
+    font-size: 25px;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+}
+.glyphicon-pencil{
+    font-size: 15px;
+    color: white;
+    float: right;
+    margin-top: 20px;
+}
+.col-md-5{
+    box-shadow: -1px 1px 60px 10px black;
+    background: rgba(0,0,0,0.4);
+}
+
+.dis{
+    margin-top: 3em;
+}
+
+.shadow{
+    box-shadow: -1px 1px 60px 10px black;
+    background: rgba(0,0,0,0.4);
+}
+
+ .btn{
+  margin-top: 10px;
+  margin-bottom: 10px;
+ font-family: 'Work Sans', sans-serif;
+} 
+
+#special {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.label{
+    font-weight: normal;
+    margin-top: 15px;
+    color: white;
+    font-size: 19px;
+    font-family: 'Work Sans', sans-serif;
+}
+.form-control{
+    background: transparent;
+    border-radius: 0px;
+    border: 0px;
+    border-bottom: 1px solid white;
+    font-size: 18px;
+    margin-top: 15px;
+    height: 40px;
+    color:white;
+}
+input[type="checkbox"]{
+    margin-top: 18px;
+    width: 15px;
+    height: 15px;
+}
+
+small{
+    font-size: 18px;
+    color: white;
+}
