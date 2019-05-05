@@ -1,4 +1,4 @@
-# DragonHacks_Hospital
+# DragonHacks Hospital
 
 A simple predictor of hospital quality. Due to dependencies issues, I could not complete and deploy the app before the hacking deadline, but this will be a work-in-progress throughout my summer.
 
