@@ -6,5 +6,5 @@ Through this project, I want to gain more practice in data wrangling, machine le
 
   <p align="center"> A crude interface used in prototyping </p>
 <p align="center">
-   <a href="https://dragonhacks2019.appspot.com/#"><img src="https://i.ibb.co/W6BqTh9/Screenshot-26.png" alt="Screenshot-26" width=800 border="0"></a>
+  <img src="https://i.ibb.co/W6BqTh9/Screenshot-26.png" alt="Screenshot-26" width=800 border="0">
 </p>
